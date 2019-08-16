@@ -15,7 +15,7 @@ The \textbf{features} in this representation are \textbf{the set of candidates t
 
 The main drawback of this transformation is that we loose the information about the sequence of individual preference. On the other hand, we gain more information about hall profile complex dependencies. This presentation of given data leads to great reduction in time consumption, in particular in Kemeny winner prediction models. Moreover, learning this data transformation also improve the accuracy of supervised algorithms in comparison to making "most frequent" predictions or random predictions of Kemeny winners.
 
-## Representation 3: ocumullative ccurrence factorisation
+## Representation 3: cumulative ccurrence factorisation
 
 This representation of data consist of making pairwise comparison of the candidates and scoring by $1$ whenever there is agreement and $0$ in case of disagreement for each individual preferance order. Here, we obtain the \textbf{features} again from the set of candidates, but we now consider one \textbf{feature} to be a\textbf{ unique pair of candidates}. The value of feature $ab$ is 1 if $a \succ_1 b$ and 0 otherwise. 
 For given $N=20$ candidates there is $380$ possible pair combination (without repetition, with order). Profile is composed of $V=25$ ranks. By marging the dataset, $9500$ features were obtained, given $380$ combination for $25$ ranks. 
