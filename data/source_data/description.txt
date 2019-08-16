@@ -1,0 +1,4 @@
+Source data for :
+- 20 alternatives (candidates)
+- 25 ranks (votes)
+- 12360 profiles (elections)
